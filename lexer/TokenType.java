@@ -1,0 +1,9 @@
+package lexer;
+
+public enum TokenType {
+    IDENTIFIER, NUMBER, STRING,
+    SELECT, INSERT, INTO, VALUES, UPDATE, SET, DELETE, FROM, WHERE,
+    AND, OR,
+    LPAREN, RPAREN, COMMA, SEMICOLON, EQUAL,
+    EOF
+}
